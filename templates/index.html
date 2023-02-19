@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+<body>
+  <main>
+    <div class="container py-4">  
+  
+      <div class="profile text-white p-5 mb-4 rounded-3 ">
+        <div class="container-fluid py-5">
+          <h1 class="display-5 fw-bold" style="color: #E3E6EC;">Faiz Haidar</h1>
+          <p class="col-md-8 fs-4" >
+            <span class="type"></span>from Jakarta
+          </p>
+          <a href="https://github.com/faizhdr" ><i class='bx bxl-github bx-sm bx-border-circle'></i></a>
+          <a href="https://www.facebook.com/faiz.haidar.545/" ><i class='bx bxl-facebook-circle bx-sm bx-border-circle'></i></a>
+          <a href="https://www.instagram.com/fz.hdr/" ><i class='bx bxl-instagram bx-sm bx-border-circle'></i></a>
+          <a href="https://www.linkedin.com/in/faiz-haidar-66281b223/" ><i class='bx bxl-linkedin-square bx-sm bx-border-circle'></i></a>
+
+        </div>
+      </div>
+  
+      <div class="row align-items-md-stretch">
+        <div class="col-md-6">
+          <div class="p-5 text-bg-dark rounded-3">
+            <h2>Skills</h2>
+            <p class="typeskills">Saya  ahli dalam bidang pembuatan desain produk digital seperti aplikasi dan website. Merancang Tampilan Pengguna dari Riset dan Wireframes</p>
+            <a href="https://www.figma.com/"><i class='bx bxl-figma bx-sm'></i></a>
+            <a href="https://id.wikipedia.org/wiki/HTML5"><i class='bx bxl-html5 bx-sm' ></i></i></a>
+            <a href="https://id.wikipedia.org/wiki/CSS_3"><i class='bx bxl-css3 bx-sm'></i></i></i></a>
+            <a href="https://getbootstrap.com/"><i class='bx bxl-bootstrap bx-sm'></i></a>
+            <a href="https://www.javascript.com"><i class='bx bxl-javascript bx-sm'></i></a>
+            <a href="https://www.php.net/"><i class='bx bxl-php bx-sm'></i></a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="p-5 bg-light border rounded-3">
+            <h2>Education</h2>
+            <ol class="list-group list-group-flush">
+              <li class="list-group-item bg-light d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Pesantren PeTIK II Jombang</div>
+                  2022 - 2023
+                </div>
+                <span class="badge "><i class='bx bxs-graduation bx-sm' ></i></span>
+              </li>
+              <li class="list-group-item bg-light d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">SMK Negeri 1 Jakarta</div>
+                  2019 - 2022
+                </div>
+                <span class="badge "><i class='bx bxs-graduation bx-sm' ></i></span>
+              </li>
+              <li class="list-group-item bg-light d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">SMP Negeri 57 Jakarta</div>
+                  2016 - 2019
+                </div>
+                <span class="badge "><i class='bx bxs-graduation bx-sm' ></i></span>
+              </li>
+              <li class="list-group-item bg-light d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">SDN Karet Kuningan 03 Pagi</div>
+                  2010 - 2016
+                </div>
+                <span class="badge "><i class='bx bxs-graduation bx-sm' ></i></span>
+              </li>
+            </ol>            
+          </div>
+        </div>
+      </div>
+  
+      <footer class="pt-3 mt-4 text-muted border-top">
+        Copyright &copy; faizhaidar 2023😉
+      </footer>
+    </div>
+  </main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="{{ url_for('static', filename='js/typed.js') }}"></script>
+<script>
+  var typed = new Typed('.type', {
+  // Waits 1000ms after typing "First"
+  strings: [
+    "I'm UI/UX Designer", 
+    "I'm Web Developer",
+    "I'm Web Designer",
+  ],
+  loop: true, 
+  typeSpeed: 70,
+  backSpeed: 50,
+});
+</script>
+</html>

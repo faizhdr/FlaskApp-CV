@@ -1,0 +1,28 @@
+i{
+    color: rgb(189, 189, 189);
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.profile{
+    background-image: url('../img/bg.png'); 
+    background-size: cover;
+}
+
+.fw-bold{
+    color: #212529;
+}
+
+/* .profile::before{
+    content: "";
+    position: fixed;
+    background: url("../img/bg.png") top right no-repeat;
+    background-size: cover;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 50vh;
+    z-index: -1;
+} */
